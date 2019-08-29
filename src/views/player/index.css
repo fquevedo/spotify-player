@@ -1,0 +1,32 @@
+.Player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.Player-container{
+    display:flex!important;
+}
+
+.Player-left > img{
+    width:50vh;
+}
+
+.Player-right {
+    width: 50vh;
+    padding: 3vh;
+}
+.Player-right > audio{
+    width: 100%;
+
+}
+
+.Player-right > h3 {
+    font-size: 2em;
+}
+
+.Player-right > h4 {
+    font-size: 130%;
+}

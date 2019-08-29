@@ -1,0 +1,62 @@
+.Index {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    padding-top:5%;
+    align-items: center;
+}
+
+
+.Index-containerSearchBox{
+
+    justify-content: center!important;
+    display:flex;
+}
+.Index-searchBox{
+    display:flex;
+    width:50%;
+}
+.Index-searchBox > a{
+
+    width:20%;
+}
+.card{
+    width: 50%!important;
+    margin-top: 0;
+}
+
+
+.SongItem{
+    display:flex;
+    width:96%;
+    padding: 1vh;
+    margin: 4% 2% 2% 2%;
+    border-bottom: 0.08vw #F1F1F1 solid;
+    cursor:pointer;
+    transition: all .4s ease;
+}
+.SongItem > a {
+    display:flex;
+    color: black;
+}
+.SongItem:hover{
+    background-color: linen;
+}
+.SongItem-photo > img{
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.SongItem-info {
+    margin-left: 1vw;
+}
+.SongItem-info > h2{
+    font-size: 1.4vw;
+    margin: 0;
+}
+.SongItem-info > h3{
+    font-size: 1.2vw;
+    
+
+}
