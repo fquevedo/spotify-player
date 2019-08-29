@@ -1,6 +1,6 @@
 # Spotify Player
 
-Buscador y reproductor de musica de Spotify, consumiendo la Api de Spotify
+Buscador y reproductor de m√∫sica de Spotify, consumiendo la Api de Spotify
 
 Tecnologias: React+Redux
 
@@ -13,14 +13,14 @@ Estas instrucciones te permitiran obtener una copia del proyecto corriendo en tu
 #### Opcional para probar API:
 * Postman [https://www.getpostman.com/](https://www.getpostman.com/)
 
-### InstalaciÛn
+### Instalaci√≥n
 ```
 $ git clone https://github.com/fquevedo/spotify-player
 $ cd spotify-player
 $ npm install
 ```
 
-### EjecuciÛn
+### Ejecuci√≥n
 Para levantar el proyecto ejecutar el siguiente comando:
 ```
 $ npm start
