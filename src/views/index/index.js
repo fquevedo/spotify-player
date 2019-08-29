@@ -56,19 +56,17 @@ class Index extends Component {
                 );
             }
             else {
-                <div className="card">
-                    <div className="card-content">
-                        <h3>No se encontraron resultados..</h3>
+                return (
+                    <div>
                     </div>
-                </div>
+                );
+
             }
         }
 
     }
     render(){
         const { song } = this.state;
-        const { songs } = this.props;
-
 
         return(
             <div className="Index">

@@ -26,7 +26,7 @@ class Player extends Component {
                     <div className="card">
                         <div className="card-content Player-container">
                             <div className="Player-left">
-                                <img alt="cover image" src={ player.payload.album.images[0].url }/>
+                                <img alt="" src={ player.payload.album.images[0].url }/>
                             </div>
                             <div className="Player-right">
                                 <audio controls>
